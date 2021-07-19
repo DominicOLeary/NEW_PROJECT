@@ -1,0 +1,19 @@
+If you want to get more complex, you can take advantage of CoreAnimation properties of a UIView.  Sounds complicated, and it can be, but it can also be simple.
+A UIView object has a property called "layer" which is its "CoreAnimation" element.  You don't need to worry all that much about that, just know it lets you modify the layer's attributes.
+e.g.
+in the above code, you could do:
+rectView.layer.borderWidth = 5
+rectView.layer.borderColor = UIColor.red.cgColor
+:+1:
+1
+
+10:32
+There are lots of other variables as well.  Feel free to play around with it.  (Note: this is way beyond anything you need in this course, but it may be fun to see what you can do, and if you get errors, see if you can figure them out and fix them)
+white_check_mark
+eyes
+raised_hands
+
+
+
+
+
